@@ -1,6 +1,41 @@
 body{
-    background-color: pink;/*My background*/
+    background-color: lightblue;/*BG*/
 }
+
+
+body{
+    body {
+        font-size: 16px; /* Increase base font size */
+    }
+    
+    h4 {
+        font-size: 24px; /* Larger size for headings */
+    }
+    
+    label {
+        font-size: 18px; /* Larger size for labels */
+    }
+    
+    textarea {
+        font-size: 16px; /* Larger text inside textareas */
+    }
+    
+}
+
+
+button {
+    padding: 10px 20px; /* Increase padding to make buttons larger */
+    font-size: 18px; /* Larger text on buttons */
+    cursor: pointer; /* Cursor changes to pointer when hovering over buttons */
+    margin: 5px; /* Space around buttons */
+}
+
+/* Optionally, add some visual styling to make buttons more attractive */
+button:hover {
+    background-color: #007BFF; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
+
 
 
 
