@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #FFE4E1; /* Soft pink background */
+    color: #333; /* Black text for better readability */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #FFF5F5; /* Very light pink background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #FFB6C1; /* Light pink border */
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333; /* Dark gray text */
+    transition: all 0.3s ease;
+}
+
+textarea:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 182, 193, 0.5); /* Light pink glow on focus */
+}
+
+button {
+    background-color: #FF69B4; /* Hot pink button */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #FF1493; /* Deeper pink on hover */
+    transform: translateY(-2px);
+}
+
+hr {
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #FFB6C1; /* Light pink horizontal rule */
+}
