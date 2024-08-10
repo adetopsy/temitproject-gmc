@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    background-color: #FFE4E1; /* Soft pink background */
+    background-color: hsl(6, 68%, 45%); /* Soft pink background */
     color: #333; /* Black text for better readability */
     margin: 0;
     padding: 20px;
@@ -10,7 +10,7 @@ body {
 .container {
     max-width: 800px;
     margin: 40px auto;
-    background-color: #FFF5F5; /* Very light pink background */
+    background-color: hsl(147, 76%, 38%); /* Very light pink background */
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -20,7 +20,7 @@ textarea, button {
     width: 100%;
     margin: 10px 0;
     padding: 12px;
-    border: 1px solid #FFB6C1; /* Light pink border */
+    border: 1px solid hwb(351 6% 81%); /* Light pink border */
     border-radius: 6px;
     font-size: 16px;
     color: #333; /* Dark gray text */
@@ -29,11 +29,11 @@ textarea, button {
 
 textarea:focus, button:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(255, 182, 193, 0.5); /* Light pink glow on focus */
+    box-shadow: 0 0 5px hsla(351, 67%, 8%, 0.5); /* Light pink glow on focus */
 }
 
 button {
-    background-color: #FF69B4; /* Hot pink button */
+    background-color: hsl(330, 45%, 4%); /* Hot pink button */
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -41,7 +41,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF1493; /* Deeper pink on hover */
+    background-color: hsl(328, 63%, 44%); /* Deeper pink on hover */
     transform: translateY(-2px);
 }
 
